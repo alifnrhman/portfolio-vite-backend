@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.use(arcjetMiddleware);
 app.use(
 	cors({
-		origin: "https://alifnurahman.com/",
+		origin: ["https://alifnurahman.com/", "http://localhost:5173"],
 	})
 );
 
